@@ -74,4 +74,32 @@
     cursor: pointer;
 }
 
+/* Login Page */
+.login{
+    text-align: center;
+    margin: 4rem 35%;
+    border: 2px solid black;
+    height: 27rem;
+}
+.login h1{
+    background-color: aqua;
+}
+.login form{
+    margin: 5rem 0;
+}
+.userdata{
+    margin: 1rem;
+}
+.userdata input{
+    margin: 1rem;
+}
+form button{
+    height: 3rem;
+    width: 6rem;
+    border: none;
+    border-radius: 10px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
 

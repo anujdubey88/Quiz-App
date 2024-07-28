@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Question from './components/Question';
 import Thankyou from './components/Thankyou';
 import Time from './components/Time';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function MainApp() {
           } 
         />
         <Route path="/thankyou" element={<Thankyou />} />
+        <Route path="/login" element={<Login />} />
+
       </Routes>
     </div>
   );
