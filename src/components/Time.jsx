@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 export default function Time() {
-  const [time, setTime] = React.useState("02:00");
+  const [time, setTime] = React.useState("00:05");
   const navigate = useNavigate();
 
   useEffect(() => {
