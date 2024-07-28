@@ -1,0 +1,68 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 44vw;
+    background-color: aqua;
+}
+.nav button{
+    height: 3rem;
+    width: 7rem;
+    margin: 2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Time Page */
+.time{
+    text-align: center;
+}
+
+
+/* Question Page */
+.que{
+    display: flex;
+    margin: 4rem;
+    justify-content: space-between;
+}
+
+.question p,.option{
+    margin-left: 2rem;
+}
+.option input{
+    cursor: pointer;
+}
+.btn{
+    margin-top: 4rem;
+}
+.btn button{
+    margin: 3rem;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 10px;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+}
+.img img{
+    width: 30vw;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+
+/* Thankyou Page */
+.thankyou{
+    text-align: center;
+}
+.thankyou h2{
+    margin-top: 5rem;
+}
+.thankyou textarea{
+    margin-top: 2rem;
+    width: 80%;
+    height: 5rem;
+}
+
+
