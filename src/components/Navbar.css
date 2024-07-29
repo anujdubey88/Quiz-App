@@ -61,6 +61,7 @@
 }
 .thankyou textarea{
     margin-top: 2rem;
+    padding: 1rem;
     width: 80%;
     height: 5rem;
 }
@@ -100,6 +101,14 @@ form button{
     border-radius: 10px;
     background-color: aqua;
     cursor: pointer;
+    margin-top: 2rem;
+}
+form input{
+    border-radius: 5px;
+    height: 1.4rem;
+    width: 10rem;
+    border : none;
+    border-bottom: 2px solid black;
 }
 
 
